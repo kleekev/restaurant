@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Lugrasimo&display=swap');
+
+div, body, p {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    height: 100vh;
+    background-image: url('img/background-image.jpg');
+}
+
+.header {
+    font-family: 'Lugrasimo', cursive;
+    height: 25vh;
+    background-color: black;
+    opacity: 0.8;
+    color: white;
+    font-size: 5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.main {
+    min-height: 70vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main div {
+    background-color: black;
+    color: white;
+    opacity: 0.8;
+    font-size: 2rem;
+    text-align: center;
+}
+
+.main p {
+    margin: 30px;
+}
+#coffee-img {
+    height: 30vh;
+    object-fit: cover;
+    margin-bottom: 15px;
+}
+
+img {
+    height: 15px;
+}
+
+.footer {
+    height: 5vh;
+    display: flex;
+    gap: 5px;
+    justify-content: center;
+    align-items: center;
+    background-color: darkgrey;
+    opacity: 0.8;
+    color: white;
+}
+
+.nav button{
+    font-family: 'Lugrasimo', cursive;
+    margin: 0 2rem;
+    border-style: none;
+    color: white;
+    background-color: black;
+    font-size: 2rem;
+    height: 3rem;
+    transition: all 0.3s ease 0s;
+    letter-spacing: 7px;
+}
+
+.nav button:hover {
+    cursor: pointer;
+    transform: translateY(-3px); 
+}
+
+#menu {
+    margin: 50px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.menu-item {
+    height: 400px;
+    width: 400px;
+}
+
+.menu-item h1 {
+    font-family: 'Lugrasimo', cursive;
+    font-size: 2rem;
+}
+
+.menu-item p {
+    font-size: 1rem;
+    min-height: 60px;
+}
+
+.menu-item img {
+    height: 150px;
+    width: 150px;
+}
+
+#contact img {
+    height: 300px;
+    width: 300px;
+    padding: 30px;
+}
+
+#contact {
+    font-family: 'Lugrasimo', cursive;
+    opacity: 1;
+}
